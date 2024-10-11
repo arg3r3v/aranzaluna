@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Artístico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">×</span>
+            <img src="img/popara.jpg" alt="lunaticaflorencio" style="max-width: 40%; height: auto;">
+            <p class="popup-text">Un saludo, bienvenidxs a mi mundo interior.</p>
+        </div>
+    </div>
+
+    <header>
+        <h1>Aranza Luna</h1>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#statement">Sobre Mi</a></li>
+                <li><a href="#obras">Obras</a></li>
+                <li><a href="#redes">Redes</a></li>
+            </ul>
+        </nav>
+        <button id="menu-button"><img src="img/menu.png" alt="Menú"></button>
+    </header>
+
+    <div id="overlay"></div>
+    <div id="fullscreen-menu">
+        <ul>
+            <li><a href="#statement">Sobre Mi</a></li>
+            <li><a href="#obras">Obras</a></li>
+            <li><a href="#redes">Redes</a></li>
+        </ul>
+    </div>
+
+    <div id="container">
+        <div id="content">
+            <h1>Aranza Luna</h1>
+            <img id="imagen-apertura" src="img/aranza.jpg" alt="Intro" style="max-width: 80%; height: auto;">
+            
+            <div class="section" id="statement">
+                <h2>Sobre Mi</h2>
+                <p>Como artista, mi camino ha sido un proceso constante de introspección. A menudo me siento como alguien que no encaja, y sé que muchas personas también se sienten así. Es parte de aceptar que todos somos diferentes y, al mismo tiempo, complementarios.</p>
+                <p>Mi objetivo es crear un lugar acogedor para quienes se han sentido inadaptados, desde la ternura. Entiendo que el mundo es un caos y, a veces, nuestro propio mundo interior también lo es. Me afecta lo que se dice sobre la "generación de cristal", porque creo que arrastramos traumas no resueltos de generaciones anteriores. También veo esto desde una perspectiva mágica.</p>
+                <p>Cuando pienso en cómo describirme, las palabras que me vienen a la mente son magia, dulzura, ternura y estrellas.</p>
+            </div>
+
+            <div class="section" id="obras">
+                <h2>Obras</h2>
+                <div>
+                    <img src="img/alergicas.jpg" alt="Obra 1" style="max-width: 80%; height: auto;">
+                    <p>Alérgicas</p>
+                    <p>78x68 cm </p>
+                    <p>2024</p>
+                    <p>Mixto sobre tela</p>
+                </div>
+                <div>
+                    <img src="img/novolvera.jpg" alt="Obra 2" style="max-width: 80%; height: auto;">
+                    <p>No volverá a ser lo que era antes</p>
+                    <p>20x25 cm</p>
+                    <p>2024</p>
+                    <p>Óleo sobre lienzo</p>
+                </div>
+                <div>
+                    <img src="img/obsecion.jpg" alt="Obra 3" style="max-width: 80%; height: auto;">
+                    <p>Obsesión</p>
+                    <p>25x20 cm</p>
+                    <p>2024</p>
+                    <p>Óleo sobre lienzo</p>
+                </div>
+                <div>
+                    <img src="img/suerte.jpg" alt="Obra 4" style="max-width: 80%; height: auto;">
+                    <p>Suerte</p>
+                    <p>13x13 cm</p>
+                    <p>2023</p>
+                    <p>Acrílico sobre lienzo</p>
+                </div>
+                <div>
+                    <img src="img/esencia.jpg" alt="Obra 5" style="max-width: 80%; height: auto;">
+                    <p>La esencia de la acidez</p>
+                    <p>90x75 cm</p>
+                    <p>2024</p>
+                    <p>Óleo sobre tela</p>
+                </div>
+                <div>
+                    <img src="img/sintitulo.jpg" alt="Obra 6" style="max-width: 80%; height: auto;">
+                    <p>Sin título</p>
+                    <p>30x40cm</p>
+                    <p>2024</p>
+                    <p>Óleo sobre lienzo</p>
+                </div>
+                <div>
+                    <img src="img/encantada.jpg" alt="Obra 7" style="max-width: 80%; height: auto;">
+                    <p>Encantada</p>
+                    <p>20x25 cm</p>
+                    <p>2024</p>
+                    <p>Pastel y bolígrafo sobre papel</p>
+                </div>
+                <div>
+                    <img src="img/escondite.jpg" alt="Obra 8" style="max-width: 80%; height: auto;">
+                    <p>Un escondite</p>
+                    <p>34 cm de diámetro</p>
+                    <p>2024</p>
+                    <p>Óleo y acrílico sobre lienzo</p>
+                </div>
+                <div>
+                    <img src="img/sintitulo1.jpg" alt="Obra 9" style="max-width: 80%; height: auto;">
+                    <p>Sin título</p>
+                    <p>15x20cm</p>
+                    <p>2024</p>
+                    <p>Óleo sobre lienzo</p>
+                </div>
+                <div>
+                    <img src="img/sintitulo2.jpg" alt="Obra 10" style="max-width: 80%; height: auto;">
+                    <p>Sin título</p>
+                    <p>20x20 cm</p>
+                    <p>2024</p>
+                    <p>Óleo y acrílico sobre lienzo</p>
+                </div>
+                <!-- Otras obras aquí -->
+            </div>
+
+            <div class="section" id="redes">
+                <h2>Redes</h2>
+                <a href="https://www.instagram.com/loveranzaft/?hl=es" title="Instagram"><img src="img/instagram.png" alt="Instagram" style="max-width: 7%; height: auto;"></a>
+                <a href="https://arg3r3v.github.io/axolotl/juego.html" title="Facebook"><img src="img/facebook.png" alt="Facebook" style="max-width: 7%; height: auto;"></a>
+                <a href="https://www.instagram.com/lunaticaflorencio/?hl=es" title="Otra red social"><img src="img/instagram.png" alt="Otra red social" style="max-width: 7%; height: auto;"></a>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+</html>
